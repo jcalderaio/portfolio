@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Materialize - Compiled and minified CSS-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css">
+    <!-- Font Awesome Icon - CSS-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- Custom Styles-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <title>John Calderaio | Software Developer</title>
+    <!-- Open Graph-->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="John Calderaio | Software Developer">
+    <meta property="og:description" content="Turning Dreams Into Code.">
+    <meta property="og:url" content="Johncalderaio.com">
+    <meta property="og:site_name" content="John Calderaio | Software Developer">
+    <meta property="article:publisher" content="Johncalderaio.com">
+    <meta property="og:image" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@jcalderaio">
+    <meta name="twitter:title" content="John Calderaio | Software Developer">
+    <meta name="twitter:description" content="Turning Dreams Into Code.">
+    <meta name="twitter:url" content="johncalderaio.com">
+    <meta name="author" content="John Calderaio">
+    <meta name="description" content="Turning Dreams Into Code.">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--if lt IE 9script(src='//html5shim.googlecode.com/svn/trunk/html5.js')
+    -->
+    <meta name="robots" content="index, follow">
+    <script>
+    (function(i, s, o, g, r, a, m) {
+  i['GoogleAnalyticsObject'] = r;
+  (i[r] =
+    i[r] ||
+    function() {
+      (i[r].q = i[r].q || []).push(arguments);
+    }),
+    (i[r].l = 1 * new Date());
+  (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+  a.async = 1;
+  a.src = g;
+  m.parentNode.insertBefore(a, m);
+})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+ga('create', 'UA-39096633-2', 'auto');
+ga('send', 'pageview');
+</script>
+    <meta name="google-site-verification" content="">
+  </head>
+  <body>
+    <!-- Navigation Menu-->
+    <nav ng-class="hide-on-small-only">
+      <ul class="side-nav fixed section table-of-contents">
+        <li class="logo"><a id="logo-container" href="#intro" class="brand-logo blue-text text-darken-3">John Calderaio<span class="red-text light">Software Developer</span></a></li>
+        <li class="bold"><a href="#about" class="waves-effect waves-dark teal-text"><i class="mdi-social-person small"></i><span>About</span></a></li>
+        <li class="bold"><a href="#experience" class="waves-effect waves-dark cyan-text"><i class="mdi-action-trending-up small"></i><span>Experience</span></a></li>
+        <li class="bold"><a href="#projects" class="waves-effect waves-dark indigo-text"><i class="mdi-av-web small"></i><span>Projects</span></a></li>
+        <li class="bold"><a href="#skills" class="waves-effect waves-dark purple-text"><i class="mdi-av-equalizer small"></i><span>Skills</span></a></li>
+        <li class="bold"><a href="#awards" class="waves-effect waves-dark red-text"><i class="mdi-action-grade small"></i><span>Awards</span></a></li>
+        <li class="bold"><a href="#education" class="waves-effect waves-dark orange-text"><i class="mdi-social-school small"></i><span>Education</span></a></li>
+        <li class="bold"><a href="#contact" class="waves-effect waves-dark brown-text"><i class="mdi-content-mail small"></i><span>Contact</span></a></li>
+        <li class="bold"><a href="resume.pdf" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span>Resume</span></a></li>
+      </ul>
+    </nav>
+    <nav class="hide-on-large only trigger z-depth-1"><a href="#" data-activates="slide-out" class="button-collapse blue-text text-darken-3"><i class="mdi-navigation-menu"></i></a>
+      <div class="name-title"><a id="name" href="#main" class="blue-text text-darken-3">John Calderaio</a><span class="red-text light">Software Developer</span></div>
+    </nav>
+    <nav class="hide-on-large only">
+      <ul id="slide-out" class="side-nav">
+        <li class="bold"><a href="#about" class="waves-effect waves-dark teal-text"><i class="mdi-social-person small"></i><span>About</span></a></li>
+        <li class="bold"><a href="#experience" class="waves-effect waves-dark cyan-text"><i class="mdi-action-trending-up small"></i><span>Experience</span></a></li>
+        <li class="bold"><a href="#projects" class="waves-effect waves-dark indigo-text"><i class="mdi-av-web small"></i><span>Projects</span></a></li>
+        <li class="bold"><a href="#skills" class="waves-effect waves-dark purple-text"><i class="mdi-av-equalizer small"></i><span>Skills</span></a></li>
+        <li class="bold"><a href="#awards" class="waves-effect waves-dark red-text"><i class="mdi-action-grade small"></i><span>Awards</span></a></li>
+        <li class="bold"><a href="#education" class="waves-effect waves-dark orange-text"><i class="mdi-social-school small"></i><span>Education</span></a></li>
+        <li class="bold"><a href="#contact" class="waves-effect waves-dark brown-text"><i class="mdi-content-mail small"></i><span>Contact</span></a></li>
+        <li class="bold"><a href="resume.pdf" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span>Resume</span></a></li>
+      </ul>
+    </nav>
+    <!-- Main Content-->
+    <main>
+      <section id="intro" class="section scrollspy full-height">
+        <div class="container">
+          <h2>I want to <span class="blue">create things</span> <br> that <span class="underline">change the world</span>.</h2>
+        </div>
+      </section>
+<!--****************************************************************************-->
+      <section id="about" class="section scrollspy">
+        <h3 class="page-title white-text blue">About</h3>
+        <div class="container flow-text">
+          <blockquote>Self-driven Software Developer with a passion for eye-catching UI design, teamwork, and entrepreneurship.</blockquote>
+          <p>I’ve always sought out opportunities and challenges, no matter the difficulty. Although my professional path has taken many twists and turns — from Physics tutor at a community college, to Chemical Engineering intern at a small company, to Summa Cum Laude graduate at the University of Florida, to iOS &amp; Android freelancer — I've never stopped quenching my curiosity to try new things.</p>
+          <p>As a Software Developer, I enjoy using my obsessive attention to detail, my love for creating things, and my unequivocal work ethic to change the world one line of code at a time. That's why I’m excited to make a big impact at a high growth company.</p>
+          <p class="signature"><strong>- John Anthony Calderaio</strong>.</p>
+        </div>
+      </section>
+<!--****************************************************************************-->
+      <section id="experience" class="section scrollspy">
+        <h3 class="page-title white-text blue">Experience</h3>
+        <div class="container">
+          <!-- Parametric Solutions -->
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2"><a href="http://www.psnet.com/" target="_blank"><img src="img/experience/psi.png" class="responsive-img center-block"></a></div>
+                <div class="col s12 m10">
+                  <p><span class="card-title"><a href="http://www.psnet.com/" target="_blank" class="indigo-text darken-4-text hoverline">Parametric Solutions</a></span></p>
+                </div>
+              </div>
+              <div class="role red-text">React Native Mobile Developer</div>
+              <p><em class="grey-text">Built an iOS &amp; Android application which allows employees of Parametric Solutions to  manage their work charges (Clients, Tasks, Dates, Hours Worked, etc).  </em></p>
+              <h6>Develop Core Product</h6>
+              <ul>
+                <li>Design, prototype, and work with manager to roadmap features and timeline</li>
+                <li>Sole Developer on this project</li>
+                <li>Build new features, both via product roadmap and self-designed</li>
+                <li>Manage feature sprint life cycle
+                  <ul>
+                    <li>process product requirements</li>
+                    <li>assess current functionality</li>
+                    <li>estimate total work time and completion dates</li>
+                    <li>break down feature into smaller deliverables</li>
+                    <li>utilize Expo to display app to management weekly</li>
+                    <li>continuously measure and document progress</li>
+                    <li>analyze sprint execution retrospectively</li>
+                  </ul>
+                </li>
+              </ul>
+              <h6>Tools</h6>
+                <ul>
+                  <li>React Native / JavaScript / REST / Expo / MobX / NativeBase / Atom / GitHub</li>
+                </ul>
+              <h6>Accomplishments</h6>
+              <ul>
+                <li>Developed a mobile application that gives employees access to functionalities they only previously had at work, significantly simplifying employee workflow</li>
+                <li>Created clever React Native components (such as tables with rows that change color depending on database update status)</li>
+                <li>Github - more than 3,400 lines added to repository</li>
+              </ul>
+            </div>
+            <div class="card-action"><span>February 2017 - Present  |  Remote</span></div>
+          </div>
+          <!-- Online Gainesville -->
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2"><a href="" target="_blank"><img src="img/experience/onlinegainesville.png" class="responsive-img center-block"></a></div>
+                <div class="col s12 m10">
+                  <p><span class="card-title"><a href="" target="_blank" class="indigo-text darken-4-text hoverline" >Online Gainesville</a></span></p>
+                </div>
+              </div>
+              <div class="role red-text">Founder &amp; Developer</div>
+              <p><em class="grey-text">Small mobile and web development studio for businesses, non-profits, and individuals</em></p>
+              <h6>Develop Company</h6>
+              <ul>
+                <li>Bought domain name through <a href="http://www.namecheap.com" target="_blank">NameCheap.com</a></li>
+                <li>Hosted landing page at <a href="http://www.crocweb.com">CrocWeb.com</a> and signed up for reseller account (so I could take on clients and host them myself)</li>
+                <li>Designed logo, made business cards, and cold-called from yellow pages to acquire customers</li>
+              </ul>
+              <h6>Tools</h6>
+                <ul>
+                  <li>JavaScript / HTML5 / MaterializeCSS / PHP / cPanel / PhotoShop </li>
+                </ul>
+              <h6>Accomplishments</h6>
+              <ul>
+                <li>Aqcuired customers, such as <a href="http://www.safebriight.com">SafeBriight</a> and <a href="http://www.psnet.com/">Parametric Solutions</a></li>
+                <li>Generated over $20k in revenue within first year of business (part-time only), without marketing or promotion</li>
+              </ul>
+            </div>
+            <div class="card-action"><span>June 2015 - August 2015  |  Remote</span></div>
+          </div>
+          <!-- IBM -->
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2"><a href="http://www.ibm.com" target="_blank"><img src="img/experience/ibm.png" class="responsive-img center-block"></a></div>
+                <div class="col s12 m10">
+                  <p><span class="card-title"><a href="http://www.ibm.com" target="_blank" class="indigo-text darken-4-text hoverline" >IBM</a></span></p>
+                </div>
+              </div>
+              <div class="role red-text">AngularJS Mobile Developer</div>
+              <p><em class="grey-text">Helped develop a work portal (dashboard) which showed employee info and an overall view of tasks, services, processes, and claims.</em></p>
+              <h6>Develop Core Product</h6>
+              <ul>
+                <li>Resolved defects on IBM Responsive Portal</li>
+                <li>Created custom directives specific to DOM manipulation, adding logic within
+                controllers to communicate feedback to the user, and modifying angular services to retrieve variables used within the templates</li>
+              </ul>
+              <h6>Improve Code Operations</h6>
+              <ul>
+                <li>Met in daily scrum meetings where we discussed user stories and defects to ensure our objectives would be achieved by the end of each sprint</li>
+                <li>Manually test new code and provide critical feedback to developers during meetings</li>
+              </ul>
+              <h6>Tools</h6>
+                <ul>
+                  <li>AngularJS / PhoneGap / JavaScript / Sublime / GitHub</li>
+                </ul>
+              <h6>Accomplishments</h6>
+              <ul>
+                <li>Instructed peers how AngularJS and PhoneGap worked, since I was the only intern with previous Angular experience going into the project.</li>
+                <li>Performed code reviews of peers submitted for my approval before being released into current software builds</li>
+              </ul>
+            </div>
+            <div class="card-action"><span>June 2015 - August 2015  |  Remote</span></div>
+          </div>
+          <!-- Lockheed Martin -->
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2"><a href="http://www.lockheedmartin.com/us.html" target="_blank"><img src="img/experience/lockheed.png" class="responsive-img center-block"></a></div>
+                <div class="col s12 m10">
+                  <p><span class="card-title"><a href="http://www.lockheedmartin.com/us.html" target="_blank" class="indigo-text darken-4-text hoverline" >Lockheed Martin</a></span></p>
+                </div>
+              </div>
+              <div class="role red-text">Java Software Engineer</div>
+              <p><em class="grey-text">Designed and built an internal web app for the F-35 Lightning II Engineering Team</em></p>
+              <h6>Develop Core Product</h6>
+              <ul>
+                <li>Developed on JBoss using Java Servlets and JavaServer Pages</li>
+                <li>Created functional use cases for the F-35 Lightning II Joint Strike Fighter's Autonomic Logistics Information System (ALIS) using Enterprise Architect</li>
+              </ul>
+              <h6>Innovation Jam</h6>
+              <ul>
+                <li>Designed embedded systems utilizing Raspberry Pi, python, and circuits within a team of four to solve design challenges proposed by Lockheed Martin’s Research and Development team</li>
+              </ul>
+              <h6>Tools</h6>
+                <ul>
+                  <li>Java / Java Servlets / Java Server Pages / JBoss Application Server / Windows Server 2012 / MySQL / Apache / Rasberry Pi / Python</li>
+                </ul>
+            </div>
+            <div class="card-action"><span>June 2014 - August 2014  |  Orlando, Florida</span></div>
+          </div>
+          <!-- The Renewable Corporation -->
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2"><a href="https://www.linkedin.com/company/2662955/" target="_blank"><img src="img/experience/renewable.jpeg" class="responsive-img center-block"></a></div>
+                <div class="col s12 m10">
+                  <p><span class="card-title"><a href="https://www.linkedin.com/company/2662955/" target="_blank" class="indigo-text darken-4-text hoverline" >The Renewable Corporation</a></span></p>
+                </div>
+              </div>
+              <div class="role red-text">Laboratory Chemist</div>
+              <p><em class="grey-text">General Laboratory Chemist and Engineering Intern</em></p>
+              <h6>Develop Core Product</h6>
+              <ul>
+                <li>Synthesized coatings that completely seal in asbestos surfaces, encapsulating hazardous materials</li>
+                <li>Spearheaded research and reformulation team on project to increase slip resistance in all floor coatings</li>
+                <li>Maintained stock supply levels and communicated directly with chemical distributors to optimize purchases and explore cost saving alternatives</li>
+              </ul>
+              <h6>Accomplishments</h6>
+              <ul>
+                <li>Identified and corrected several situations in which pH fluctuation was affecting product shelf life, saving the company upwards of thousands of dollars per year</li>
+                <li>Researched surface bubbling production anomaly with The Renewable Corporation’s flagship coating product and submitted a comprehensive reformulation proposal that eliminated all inconsistencies</li>
+              </ul>
+            </div>
+            <div class="card-action"><span>August 2012 - August 2013  |  Lakepark, Florida</span></div>
+          </div>
+          <!-- Private Tutor -->
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2"><a href="https://www.palmbeachstate.edu/" target="_blank"><img src="img/experience/pbsc.png" class="responsive-img center-block"></a></div>
+                <div class="col s12 m10">
+                  <p><span class="card-title"><a href="https://www.palmbeachstate.edu/" target="_blank" class="indigo-text darken-4-text hoverline" >Palm Beach State College</a></span></p>
+                </div>
+              </div>
+              <div class="role red-text">Private Tutor</div>
+              <p><em class="grey-text">Led private chemistry, calculus, and physics tutoring sessions</em></p>
+              <ul>
+                <li>Worked diligently with students to increase their comprehension of complex concepts</li>
+              </ul>
+              <h6>Accomplishments</h6>
+              <ul>
+                <li>Most tutees reported an increase of at least one letter grade</li>
+              </ul>
+            </div>
+            <div class="card-action"><span>March 2012 - December 2012  |  Palm Beach Gardens, Florida</span></div>
+          </div>
+          <!-- Nordstrom -->
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2"><a href="http://shop.nordstrom.com/" target="_blank"><img src="img/experience/nordstrom.png" class="responsive-img center-block"></a></div>
+                <div class="col s12 m10">
+                  <p><span class="card-title"><a href="http://shop.nordstrom.com/" target="_blank" class="indigo-text darken-4-text hoverline" >Nordstrom</a></span></p>
+                </div>
+              </div>
+              <div class="role red-text">Sales Associate</div>
+              <p><em class="grey-text">Sales associate for the men's shoe department of Nordstrom</em></p>
+              <ul>
+                <li>Performed market research to obtain knowledge of competing companies and to implement sales strategies</li>
+              </ul>
+              <h6>Accomplishments</h6>
+              <ul>
+                <li>Consistently ranked among top sales representatives in region</li>
+                <li>Winner of over six performance contests for highest overall net sales and highest ranking in customer satisfaction</li>
+              </ul>
+            </div>
+            <div class="card-action"><span>March 2008 - January 2011  |  Palm Beach Gardens, Florida</span></div>
+          </div>
+          <!-- End of Experience -->
+        </div>
+      </section>
+<!--****************************************************************************-->
+      <section id="projects" class="section scrollspy">
+        <h3 class="page-title white-text blue">Projects</h3>
+        <div class="container">
+          <div class="row">
+            <!-- React-Native Test -->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><img src="img/projects/react-honors-app.jpg" class="activator"></div>
+                <div class="card-content"><span class="card-title activator indigo-text darken-4-text hoverline">React-Native Test<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Written to compare the performance to its identical Swift counterpart.</p>
+                </div>
+                <div class="card-reveal"><span class="card-title red-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li>For my Summma Cum Laude thesis, I published a <a href="https://medium.com/the-react-native-log/comparing-the-performance-between-native-ios-swift-and-react-native-7b5490d363e2" target="_blank">research paper</a> comparing React-Native to Swift.  </li>
+                    <li><b>Has Facebook Login</b> (with user Photo, Name, and email), <b>To-Do-List</b>, <b>Page View</b>, and <b>Geolocation</b></li>
+                  </ul>
+                  <div class="card-action"><a href="https://appetize.io/embed/1g9azrycgkeuatn0h30txc6qkc?device=iphone6s&scale=85&autoplay=false&orientation=portrait&osVersion=9.3" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light red tooltipped"><i class="fa fa-external-link"></i></a><a href="https://github.com/jcalderaio/react-native-honors-app" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light red tooltipped"><i class="fa fa-github"></i></a></div>
+                </div>
+              </div>
+            </div>
+            <!-- Swift Test -->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><img src="img/projects/swift-honors-app.jpg" class="activator"></div>
+                <div class="card-content"><span class="card-title activator indigo-text darken-4-text hoverline">Swift Test<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Written to compare the performance to its identical React-Native counterpart.</p>
+                </div>
+                <div class="card-reveal"><span class="card-title red-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li>For my Summma Cum Laude thesis, I published a <a href="https://medium.com/the-react-native-log/comparing-the-performance-between-native-ios-swift-and-react-native-7b5490d363e2" target="_blank">research paper</a> comparing React-Native to Swift.  </li>
+                    <li><b>Has Facebook Login</b> (with user Photo, Name, and email), <b>To-Do-List</b> using <b>NSUserDefaults</b>, <b>Page View</b>, and <b>Geolocation</b></li>
+                  </ul>
+                  <div class="card-action"><a href="https://appetize.io/embed/caxuka7fczvupexw7uqhhc7jb8?device=iphone6s&scale=85&autoplay=false&orientation=portrait&osVersion=9.3" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light red tooltipped"><i class="fa fa-external-link"></i></a><a href="https://github.com/jcalderaio/swift-honors-app" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light red tooltipped"><i class="fa fa-github"></i></a></div>
+                </div>
+              </div>
+            </div>
+            <!-- Online Gainesville -->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><img src="img/projects/onlinegainesville.jpg" class="activator"></div>
+                <div class="card-content"><span class="card-title activator indigo-text darken-4-text hoverline">Online Gainesville<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Small mobile and web development studio for businesses, non-profits, and individuals.</p>
+                </div>
+                <div class="card-reveal"><span class="card-title red-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li>Aqcuired customers, such as <a href="http://www.safebriight.com">SafeBriight</a> and <a href="http://www.psnet.com/">Parametric Solutions</a></li>
+                    <li>Generated over $20k in revenue within first year of business (part-time only), without marketing or promotion</li>
+                  </ul>
+                  <div class="card-action"><a href="https://jcalderaio.github.io/online-gainesville/" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light red tooltipped"><i class="fa fa-external-link"></i></a><a href="https://github.com/jcalderaio/online-gainesville" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light red tooltipped"><i class="fa fa-github"></i></a></div>
+                </div>
+              </div>
+            </div>
+            <!-- SafeBriight -->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><img src="img/projects/safebriight.jpg" class="activator"></div>
+                <div class="card-content"><span class="card-title activator indigo-text darken-4-text hoverline">SafeBriight<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Created the company website for SafeBriight, the Smart Street Light</p>
+                </div>
+                <div class="card-reveal"><span class="card-title red-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li>Used <b>MaterializeCSS</b> &amp; <b>JavaScript</b> to create a responsive, mobile first website</li>
+                    <li>Utilized <b>PhotoShop</b> to touch up background and shape images to design contraints</li>
+                    <li>Coded contact form using <b>PHP</b> &amp; <b>JavaScript</b></li>
+                  </ul>
+                  <div class="card-action"><a href="http://www.safebriight.com/" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light red tooltipped"><i class="fa fa-external-link"></i></a><a href="https://github.com/jcalderaio/Safebriight_Website" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light red tooltipped"><i class="fa fa-github"></i></a></div>
+                </div>
+              </div>
+            </div>
+            <!-- Shell in C -->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><img src="img/projects/shell-in-c.jpg" class="activator"></div>
+                <div class="card-content"><span class="card-title activator indigo-text darken-4-text hoverline">Shell in C<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Recreation of terminal's shell which was coded using lex and yacc in C.</p>
+                </div>
+                <div class="card-reveal"><span class="card-title red-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li>Made to imitate many of Unix/Mac's terminal functionality</li>
+                    <li>Written in <b>C</b> using <b>Lex</b> &amp; <b>Yacc</b></li>
+                  </ul>
+                  <div class="card-action"><a href="https://github.com/jcalderaio/shell-in-c" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light red tooltipped"><i class="fa fa-github"></i></a></div>
+                </div>
+              </div>
+            </div>
+            <!-- No Satellite GPS -->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><img src="img/projects/no-sat-gps.jpg" class="activator"></div>
+                <div class="card-content"><span class="card-title activator indigo-text darken-4-text hoverline">No Satellite GPS<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Mobile application for interpreting spatial SQL maps (can't login since Parse closed).</p>
+                </div>
+                <div class="card-reveal"><span class="card-title red-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li>Used <b>Ionic</b> &amp; <b>Cordova</b> to create a cross platform application</li>
+                    <li>Peer used <b>AutoCAD</b> to map out my Computer Science Department, while I programmed a way to interpret the results</li>
+                    <li>Integrated SpatiaLite <b>JavaScript</b> library into the app to assist with 3D map (GIS) interpretation</li>
+                  </ul>
+                  <div class="card-action"><a href="https://appetize.io/embed/ueg1g124dgx83q3vx16bh0v3mg?device=iphone6s&scale=85&&autoplay=false&orientation=portrait&osVersion=9.3&location=39.903924,116.391432" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light red tooltipped"><i class="fa fa-external-link"></i></a><a href="https://github.com/jcalderaio/no-sat-gps" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light red tooltipped"><i class="fa fa-github"></i></a></div>
+                </div>
+              </div>
+            </div>
+            <!-- Turnup -->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><img src="img/projects/turnup-4-wat.jpg" class="activator"></div>
+                <div class="card-content"><span class="card-title activator indigo-text darken-4-text hoverline">Turnup<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Find or host local video game tournaments (can't login since Facebook closed Parse.com).</p>
+                </div>
+                <div class="card-reveal"><span class="card-title red-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li>Used <b>Ionic</b> &amp; <b>Cordova</b> to create a cross platform application</li>
+                    <li>Wrote directives in <b>Angular</b> to serve data</li>
+                    <li>Developed <b>CSS</b> &amp; <b>JS</b> responsive menu</li>
+                    <li>Created member list via <b>Parse API</b></li>
+                  </ul>
+                  <div class="card-action"><a href="https://github.com/jcalderaio/Turnup4Wat" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light red tooltipped"><i class="fa fa-github"></i></a></div>
+                </div>
+              </div>
+            </div>
+            <!-- The Beats Captain -->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><img src="img/projects/beats-captain.jpg" class="activator"></div>
+                <div class="card-content"><span class="card-title activator indigo-text darken-4-text hoverline">The Beats Captain<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Database project written in PHP and HTML with an Oracle DB backend.</p>
+                </div>
+                <div class="card-reveal"><span class="card-title red-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li>Found music data from the last 100 years</li>
+                    <li>Stored 110,001 tuples of music at random from the data on an <b>Oracle DB</b> backend</li>
+                    <li>Constructed a frontend using <b>jQuery</b> &amp; <b>Bootstrap</b></li>
+                    <li>Used <b>PHP</b> to query the database &amp; for input validation</li>
+                  </ul>
+                  <div class="card-action"><a href="http://www.cise.ufl.edu/~jcaldera/Database_Website/" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light red tooltipped"><i class="fa fa-external-link"></i></a><a href="https://github.com/jcalderaio/beats-captain-database-project" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light red tooltipped"><i class="fa fa-github"></i></a></div>
+                </div>
+              </div>
+            </div>
+
+          </div>  <!-- End Row -->
+        </div>  <!-- End Container -->
+      </section>
+<!--****************************************************************************-->
+      <section id="skills" class="section scrollspy">
+        <h3 class="page-title white-text blue">Skills</h3>
+        <div class="container">
+          <!-- Languages -->
+          <div class="card">
+            <div class="card-content">
+              <h4 class="indigo-text darken-4-text light">Languages</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img src="img/skills/java.png" class="responsive-img">Java</div>
+                <div class="col s4 m2"><img src="img/skills/c++.png" class="responsive-img">C++</div>
+                <div class="col s4 m2"><img src="img/skills/c.png" class="responsive-img">C</div>
+              </div>
+            </div>
+          </div>
+          <!-- HTML/CSS -->
+          <div class="card">
+            <div class="card-content">
+              <h4 class="indigo-text darken-4-text light">HTML/CSS</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img src="img/skills/html5.png" class="responsive-img">HTML5</div>
+                <div class="col s4 m2"><img src="img/skills/css3.png" class="responsive-img">CSS3</div>
+                <div class="col s4 m2"><img src="img/skills/bootstrap.png" class="responsive-img">Bootstrap</div>
+                <div class="col s4 m2"><img src="img/skills/materialize.png" class="responsive-img">Materialize</div>
+                <div class="col s4 m2"><img src="img/skills/sass.png" class="responsive-img">SASS</div>
+              </div>
+            </div>
+          </div>
+          <!-- JavaScript -->
+          <div class="card">
+            <div class="card-content">
+              <h4 class="indigo-text darken-4-text light">Javascript</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img src="img/skills/javascript.png" class="responsive-img">Javascript</div>
+                <div class="col s4 m2"><img src="img/skills/react.png" class="responsive-img">React</div>
+                <div class="col s4 m2"><img src="img/skills/mobx.png" class="responsive-img">MobX</div>
+                <div class="col s4 m2"><img src="img/skills/jquery.png" class="responsive-img">jQuery</div>
+                <div class="col s4 m2"><img src="img/skills/nodejs.png" class="responsive-img">Node</div>
+                <div class="col s4 m2"><img src="img/skills/json.png" class="responsive-img">JSON</div>
+              </div>
+            </div>
+          </div>
+          <!-- Backend -->
+          <div class="card">
+            <div class="card-content">
+              <h4 class="indigo-text darken-4-text light">Back-End</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img src="img/skills/php.png" class="responsive-img">PHP</div>
+                <div class="col s4 m2"><img src="img/skills/sql.png" class="responsive-img">SQL</div>
+                <div class="col s4 m2"><img src="img/skills/mysql.png" class="responsive-img">MySQL</div>
+                <div class="col s4 m2"><img src="img/skills/mongodb.png" class="responsive-img">MongoDB</div>
+                <div class="col s4 m2"><img src="img/skills/rest.jpg" class="responsive-img">REST</div>
+              </div>
+            </div>
+          </div>
+          <!-- Mobile -->
+          <div class="card">
+            <div class="card-content">
+              <h4 class="indigo-text darken-4-text light">Mobile</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img src="img/skills/react.png" class="responsive-img">React-Native</div>
+                <div class="col s4 m2"><img src="img/skills/swift.png" class="responsive-img">Swift</div>
+              </div>
+            </div>
+          </div>
+          <!-- Other -->
+          <div class="card">
+            <div class="card-content">
+              <h4 class="indigo-text darken-4-text light">Other</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img src="img/skills/github.png" class="responsive-img">Github</div>
+                <div class="col s4 m2"><img src="img/skills/heroku.png" class="responsive-img">Heroku</div>
+                <div class="col s4 m2"><img src="img/skills/photoshop.png" class="responsive-img">Photoshop</div>
+                <div class="col s4 m2"><img src="img/skills/sketch.png" class="responsive-img">Sketch</div>
+              </div>
+            </div>
+          </div>
+          <!-- Build Tools
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Build Tools</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img src="img/grunt.png" class="responsive-img">Grunt</div>
+                <div class="col s4 m2"><img src="img/gulp.png" class="responsive-img">Gulp</div>
+                <div class="col s4 m2"><img src="img/bower.png" class="responsive-img">Bower</div>
+              </div>
+            </div>
+          </div>
+          <!- CMS
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">CMS</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img src="img/wordpress.png" class="responsive-img">Wordpress</div>
+                <div class="col s4 m2"><img src="img/tumblr.png" class="responsive-img">Tumblr</div>
+                <div class="col s4 m2"><img src="img/squarespace.png" class="responsive-img">Squarespace</div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </section>
+<!--****************************************************************************-->
+      <section id="awards" class="section scrollspy">
+        <h3 class="page-title white-text blue">Awards &amp; Affiliations</h3>
+        <div class="container">
+          <!-- Row 1 -->
+          <div class="row">
+            <!-- Summa Cum Laude and President's Honor Roll -->
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a class="indigo-text darken-4-text">Summa Cum Laude</a></span></p>
+                  <p class="red-text">University of Florida | 2016</p>
+                  <ul>
+                    <li>Academically outstanding students who graduate with a Grade Point Average of at least 3.8 and complete an approved research project are granted with highest honors.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Toastmasters -->
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a class="indigo-text darken-4-text">Toastmasters Member</a></span></p>
+                  <p class="red-text">University of Florida Chapter | 2015</p>
+                  <ul>
+                    <li>Toastmasters is a nonprofit educational organization that helps its members improve their communication, public speaking, and leadership skills.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Row 2 -->
+          <div class="row">
+            <!-- Martin Luther King Jr. Leadership Award -->
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a class="indigo-text darken-4-text">Martin Luther King Jr. Leadership Award</a></span></p>
+                  <p class="red-text">Palm Beach State College | 2013</p>
+                  <ul>
+                    <li>Presented to the student who has made the most innovative contribution toward improving the lives of others in Palm Beach County.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Vice President -->
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a class="indigo-text darken-4-text">Vice President</a></span></p>
+                  <p class="red-text">Student Government (PBSC) | 2012 - 2013</p>
+                  <ul>
+                    <li>Preside over all SGA senate meetings.</li>
+                    <li>Make all committee assignments.</li>
+                    <li>Assume duties of the SGA President in his/her absence.</li>
+                    <li>Shall be responsible for other SGA duties that the President deem necessary.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Row 3 -->
+          <div class="row">
+            <!-- Vice President -->
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a class="indigo-text darken-4-text">Outstanding Senator Award</a></span></p>
+                  <p class="red-text">Student Government (PBSC) | 2012</p>
+                  <ul>
+                    <li>Given to those senators who go above and beyond what is required of them (given to me when I was a Senator, before becoming Vice President)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- NASA Reduced Gravity Flight Program -->
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a class="indigo-text darken-4-text">NASA Reduced Gravity Education Flight Program</a></span></p>
+                  <p class="red-text">Student Government (PBSC) | 2012</p>
+                  <ul>
+                    <li>Worked within a small team of engineering students to put together a proposal for NASA's Reduced Gravity Education Flight Program.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+<!--****************************************************************************-->
+      <section id="education" class="section scrollspy">
+        <h3 class="page-title white-text blue">Education</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a href="http://news.ufl.edu/articles/2017/09/uf-first-in-florida-to-crack-us-news-list-of-top-10-best-public-universities.php" target="_blank" class="indigo-text darken-4-text hoverline">University of Florida</a></span></p>
+                  <p class="red-text">Gainesville, FL | 2013 - 2016</p>
+                  <ul>
+                    <li>B.S. in Computer Science Engineering</li>
+                    <li>Summa Cum Laude</li>
+                    <li>3.9 GPA</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a href="https://www.palmbeachstate.edu/" class="indigo-text darken-4-text hoverline">Palm Beach State College</a></span></p>
+                  <p class="red-text">Palm Beach Gardens, FL | 2010 - 2013</p>
+                  <ul>
+                    <li>Associates Degree</li>
+                    <li>4.0 GPA</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="section scrollspy full-height">
+        <h3 class="page-title white-text blue">Contact</h3>
+        <div class="container">
+          <p><a href="mailto:jcalderaio@gmail.com" data-position="top" data-tooltip="Email John" class="btn-floating btn-large waves-effect waves-light red tooltipped"><i class="fa fa-envelope"></i><a href="mailto:jcalderaio@gmail.com" class="indigo-text darken-4-text hoverline">jcalderaio@gmail.com</a></a></p>
+          <p><a href="http://github.com/jcalderaio" target="_blank" data-position="top" data-tooltip="View John on GitHub" class="btn-floating btn-large waves-effect waves-light red tooltipped"><i class="fa fa-github"></i><a href="http://github.com/jcalderaio" target="-_blank" class="indigo-text darken-4-text hoverline">github.com/jcalderaio</a></a></p>
+          <p><a href="http://linkedin.com/in/johncalderaio" target="_blank" data-position="top" data-tooltip="View John on LinkedIn" class="btn-floating btn-large waves-effect waves-light red tooltipped"><i class="fa fa-linkedin"></i><a href="http://linkedin.com/in/johncalderaio" target="_blank" class="indigo-text darken-4-text hoverline">linkedin.com/in/johncalderaio</a></a></p>
+        </div>
+      </section>
+    </main>
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Materialize - Compiled and minified JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+    <script>
+    // Materialize - Initializers
+$(document).ready(function() {
+  $('.scrollspy').scrollSpy();
+  // Initialize collapse button
+  $('.button-collapse').sideNav({
+    menuWidth: 190, // Default is 240
+    edge: 'left', // Choose the horizontal origin
+    closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+  });
+});
+</script>
+  </body>
+</html>
