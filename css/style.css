@@ -30,7 +30,7 @@ nav i {
   top: 5px;
 }
 main {
-  background: url(../../img/bg.png) repeat;
+  background: url(../img/bg.png) repeat;
   padding-left: 190px;
 }
 ul.side-nav {
@@ -93,7 +93,7 @@ h3 {
   height: 100vh;
 }
 #intro.section {
-  background: url(../../img/john-calderaio.jpg) no-repeat center center/cover;
+  background: url(../img/john-calderaio.jpg) no-repeat center center/cover;
   position: relative;
 }
 #intro.section .container {
