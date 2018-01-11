@@ -374,3 +374,11 @@ small {
   font-size: 2em;
   text-shadow: 4px 4px 4px #aaa;
 }
+.project:hover {
+  background-color: #efeeea;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+.underline:hover {
+  text-decoration: underline;
+}
